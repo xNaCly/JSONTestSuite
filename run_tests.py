@@ -21,6 +21,11 @@ INVALID_BINARY_FORMAT = 8
 BAD_CPU_TYPE = 86
 
 programs = {
+   "libjson":
+       {
+           "url":"https://github.com/xNaCly/libjson",
+           "commands":[os.path.join(PARSERS_DIR, "test_libjson/test_libjson")]
+       },
     # "Awk JSON.awk busybox":
     #     {
     #         "url":"https://github.com/step-/JSON.awk",
